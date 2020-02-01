@@ -1,3 +1,5 @@
+// Linear - O(n)
+
 function chart(obj, indent = "") {
   let output = "";
   for (let key in obj) {

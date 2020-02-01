@@ -1,3 +1,4 @@
+// Constant - 0(1)
 function factoral(num) {
   if (num === 1) {
     return num;

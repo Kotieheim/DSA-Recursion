@@ -1,3 +1,5 @@
+// Linear? 0(n)
+
 function fibonnaci(num) {
   if (num === 1) {
     return 1;

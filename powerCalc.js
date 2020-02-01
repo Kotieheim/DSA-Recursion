@@ -1,3 +1,5 @@
+//Linear 0(n)
+
 function powerCalculator(base, exponent) {
   if (exponent < 0) {
     return "Exponent should be >= 0";

@@ -1,5 +1,7 @@
 // nth === x[(n-1)] + n
 
+// Constant? 0(1)
+
 function triangleNum(n) {
   //   console.log(n);
   if (n === 1) {

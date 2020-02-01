@@ -1,3 +1,5 @@
+// Linear 0(n)
+
 function reverseString(string) {
   if (string === "") {
     return "";
