@@ -1,0 +1,13 @@
+Analyze algorithms
+
+Time complexity
+
+Big O notation
+
+Recursion
+ - not a data structure or algorithm, it's a concept. function calling itself to breakdown a problem until its small enough to solve.
+ - Broken down into two parts
+   - Base case (i.e., when to stop)
+   - General, or recursive case (i.e., function calling itself)
+- forward phase: taking something from a list on every recursive call until one item(base case) is left.
+- backward phase: Initial call waits until all other calls have gotten to the solution of the problem (accumulated from the reutnrs of all the other function calls) the main function doesn't return until ALL recursive calls are completed.
