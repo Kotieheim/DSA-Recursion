@@ -1,10 +1,18 @@
-// Constant - 0(1)
-function factoral(num) {
-  if (num === 1) {
-    return num;
+// function factorial(num) {
+//   if (num === 1) {
+//     return 1;
+//   }
+
+//   return num * factorial(num - 1);
+// }
+
+// console.log(factorial(5));
+
+function factorial(n) {
+  if (n === 1) {
+    return 1;
   }
-  console.log(num);
-  return num * factoral(num - 1);
+  return n * factorial(n - 1);
 }
 
-console.log(factoral(5));
+console.log(factorial(5));

@@ -11,3 +11,8 @@ Recursion
    - General, or recursive case (i.e., function calling itself)
 - forward phase: taking something from a list on every recursive call until one item(base case) is left.
 - backward phase: Initial call waits until all other calls have gotten to the solution of the problem (accumulated from the reutnrs of all the other function calls) the main function doesn't return until ALL recursive calls are completed.
+
+
+recursive function made of two parts
+  - base case or a terminating condition
+  - recursive case
